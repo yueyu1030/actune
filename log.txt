@@ -1,0 +1,135 @@
+07/24/2022 02:34:24 - INFO - utils -   Creating features from dataset file at ../datasets/SST-2-50-0
+07/24/2022 02:34:24 - INFO - utils -   LOOKING AT ../datasets/SST-2-50-0/valid.json
+07/24/2022 02:34:24 - INFO - utils -   {'_id': 1, 'text': 'there is a fabric of complex ideas here , and feelings that profoundly deepen them .'}
+07/24/2022 02:34:24 - INFO - utils -   Writing example 0 of 872
+07/24/2022 02:34:24 - INFO - utils -   *** Example ***
+07/24/2022 02:34:24 - INFO - utils -   guid: dev-0
+07/24/2022 02:34:24 - INFO - utils -   tokens: <s> there Ġis Ġa Ġfabric Ġof Ġcomplex Ġideas Ġhere Ġ, Ġand Ġfeelings Ġthat Ġprofoundly Ġdeepen Ġthem Ġ.
+07/24/2022 02:34:24 - INFO - utils -   input_ids: 0 8585 16 10 10199 9 2632 2956 259 2156 8 6453 14 27301 23176 106 479 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:24 - INFO - utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:24 - INFO - utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:24 - INFO - utils -   label: 1 (id = 1)
+07/24/2022 02:34:24 - INFO - utils -   Saving features into cached file ../datasets/SST-2-50-0/cached_dev_SST-2_roberta-base_64
+07/24/2022 02:34:24 - INFO - utils -   Creating features from dataset file at ../datasets/SST-2-50-0
+07/24/2022 02:34:24 - INFO - utils -   LOOKING AT ../datasets/SST-2-50-0/test.json
+07/24/2022 02:34:24 - INFO - utils -   {'_id': 1, 'text': "this is one of polanski 's best films ."}
+07/24/2022 02:34:24 - INFO - utils -   Writing example 0 of 1821
+07/24/2022 02:34:24 - INFO - utils -   *** Example ***
+07/24/2022 02:34:24 - INFO - utils -   guid: test-0
+07/24/2022 02:34:24 - INFO - utils -   tokens: <s> this Ġis Ġone Ġof Ġpol anski Ġ' s Ġbest Ġfilms Ġ.
+07/24/2022 02:34:24 - INFO - utils -   input_ids: 0 9226 16 65 9 8385 24345 128 29 275 3541 479 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:24 - INFO - utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:24 - INFO - utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:24 - INFO - utils -   label: 1 (id = 1)
+07/24/2022 02:34:24 - INFO - utils -   Saving features into cached file ../datasets/SST-2-50-0/cached_test_SST-2_roberta-base_64
+07/24/2022 02:34:25 - INFO - utils -   Creating features from dataset file at ../datasets/SST-2-50-0
+07/24/2022 02:34:25 - INFO - utils -   LOOKING AT ../datasets/SST-2-50-0/train.json
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': 'has a caffeinated , sloppy brilliance , sparkling with ideas you wish had been developed with more care , but'}
+07/24/2022 02:34:25 - INFO - utils -   Writing example 0 of 100
+07/24/2022 02:34:25 - INFO - utils -   *** Example ***
+07/24/2022 02:34:25 - INFO - utils -   guid: train-0
+07/24/2022 02:34:25 - INFO - utils -   tokens: <s> has Ġa Ġcaffe inated Ġ, Ġsloppy Ġbrilliance Ġ, Ġsparkling Ġwith Ġideas Ġyou Ġwish Ġhad Ġbeen Ġdeveloped Ġwith Ġmore Ġcare Ġ, Ġbut
+07/24/2022 02:34:25 - INFO - utils -   input_ids: 0 7333 10 45167 9339 2156 26654 28505 2156 21121 19 2956 47 2813 56 57 2226 19 55 575 2156 53 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:25 - INFO - utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:25 - INFO - utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:25 - INFO - utils -   label: 1 (id = 1)
+07/24/2022 02:34:25 - INFO - utils -   Saving features into cached file ../datasets/SST-2-50-0/cached_train_SST-2_roberta-base_64
+07/24/2022 02:34:25 - INFO - utils -   Creating features from dataset file at ../datasets/SST-2-50-0
+07/24/2022 02:34:25 - INFO - utils -   LOOKING AT ../datasets/SST-2-50-0/unlabeled.json
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': 'as though i was in the tiny two seater plane that carried the giant camera around australia , sweeping and gliding , banking'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': 'contemplation'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 0, 'text': 'a disappointingly thin slice of lower-class london life ; despite the title ... amounts to surprisingly little'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 0, 'text': 'imagine that a more confused , less interesting and more sloppily made film could possibly come down the road in 2002'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': 'which should appeal to women'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': 'of daring films'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': 'has clever ways of capturing inner-city life during the reagan years'}
+07/24/2022 02:34:25 - INFO - utils -   {'_id': 1, 'text': "campanella 's competent direction and his excellent cast overcome the obstacles of a predictable outcome and a screenplay that glosses over rafael 's evolution ."}
+07/24/2022 02:34:25 - INFO - utils -   Writing example 0 of 40000
+07/24/2022 02:34:25 - INFO - utils -   *** Example ***
+07/24/2022 02:34:25 - INFO - utils -   guid: unlabeled-0
+07/24/2022 02:34:25 - INFO - utils -   tokens: <s> as Ġthough Ġi Ġwas Ġin Ġthe Ġtiny Ġtwo Ġse ater Ġplane Ġthat Ġcarried Ġthe Ġgiant Ġcamera Ġaround Ġaust ral ia Ġ, Ġsweeping Ġand Ġgl iding Ġ, Ġbanking
+07/24/2022 02:34:25 - INFO - utils -   input_ids: 0 281 600 939 21 11 5 5262 80 842 5109 3286 14 2584 5 3065 2280 198 28410 7085 493 2156 9893 8 5921 8231 2156 3454 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:25 - INFO - utils -   attention_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:25 - INFO - utils -   token_type_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+07/24/2022 02:34:25 - INFO - utils -   label: 1 (id = 1)
+07/24/2022 02:34:25 - INFO - utils -   Writing example 5000 of 40000
+07/24/2022 02:34:26 - INFO - utils -   Writing example 10000 of 40000
+07/24/2022 02:34:26 - INFO - utils -   Writing example 15000 of 40000
+07/24/2022 02:34:27 - INFO - utils -   Writing example 20000 of 40000
+07/24/2022 02:34:27 - INFO - utils -   Writing example 25000 of 40000
+07/24/2022 02:34:28 - INFO - utils -   Writing example 30000 of 40000
+07/24/2022 02:34:28 - INFO - utils -   Writing example 35000 of 40000
+07/24/2022 02:34:29 - INFO - utils -   Saving features into cached file ../datasets/SST-2-50-0/cached_unlabeled_SST-2_roberta-base_64_unlabel
+07/24/2022 02:34:37 - INFO - trainer -   Loading from ../datasets/SST-2-50-0/model/checkpoint-roberta-base-active_selftrain-region_entropy-train-50!
+07/24/2022 02:34:39 - INFO - trainer -   ***** Running evaluation on test dataset *****
+07/24/2022 02:34:39 - INFO - trainer -     Num examples = 1821
+07/24/2022 02:34:41 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:35:34 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:35:35 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:35:35 - INFO - trainer -     Num examples = 872
+07/24/2022 02:35:36 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:35:36 - INFO - trainer -   Best model updated!
+07/24/2022 02:35:39 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:35:41 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:35:41 - INFO - trainer -     Num examples = 872
+07/24/2022 02:35:42 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:35:45 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:35:48 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:35:48 - INFO - trainer -     Num examples = 872
+07/24/2022 02:35:49 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:35:49 - INFO - trainer -   Best model updated!
+07/24/2022 02:35:51 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:35:54 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:35:54 - INFO - trainer -     Num examples = 872
+07/24/2022 02:35:55 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:35:55 - INFO - trainer -   Best model updated!
+07/24/2022 02:35:56 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:01 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:01 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:02 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:02 - INFO - trainer -   Best model updated!
+07/24/2022 02:36:02 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:06 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:07 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:07 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:08 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:10 - INFO - trainer -   Finished iterating Unlabeled dataset, begin reiterate
+07/24/2022 02:36:12 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:14 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:14 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:15 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:18 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:20 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:20 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:21 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:23 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:27 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:27 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:28 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:28 - INFO - trainer -   Best model updated!
+07/24/2022 02:36:29 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:33 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:33 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:34 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:34 - INFO - trainer -   Best model updated!
+07/24/2022 02:36:34 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:39 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:40 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:40 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:41 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:41 - INFO - trainer -   Best model updated!
+07/24/2022 02:36:44 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:46 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:46 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:47 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:47 - INFO - trainer -   Best model updated!
+07/24/2022 02:36:50 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:50 - INFO - trainer -   Finished iterating Unlabeled dataset, begin reiterate
+07/24/2022 02:36:53 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:53 - INFO - trainer -     Num examples = 872
+07/24/2022 02:36:54 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:36:55 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
+07/24/2022 02:36:59 - INFO - trainer -   ***** Running evaluation on dev dataset *****
+07/24/2022 02:36:59 - INFO - trainer -     Num examples = 872
+07/24/2022 02:37:00 - INFO - trainer -   ***** Eval results *****
+07/24/2022 02:37:01 - INFO - trainer -   Finished iterating Train dataset, begin reiterate
