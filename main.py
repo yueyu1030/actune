@@ -197,15 +197,12 @@ if __name__ == '__main__':
 
     parser.add_argument("--al_method", default='random', type=str, help="The initial learning rate for Adam.")
 
-    # parser.add_argument("--balance_st", default=0, type=int, help="Balance between class.")
-    # parser.add_argument("--balance_query", default=0, type=int, help="Balance between query.")
     parser.add_argument("--gamma", default=1, type=float, help="Balance between prev and current.")
     parser.add_argument("--smooth_prob", default=1, type=int, help="Balance between prev and current.")
 
     parser.add_argument("--n_centroids", default=25, type=int, help="Number of regions used in region-aware sampling.")
     parser.add_argument("--region_beta", default=0.1, type=float, help="The weight used in region-aware sampling.")
     parser.add_argument("--sample_per_group", default=10, type=int, help="Number of samples selected from each cluster.")
-    # parser.add_argument("--region_rho", default=0.1, type=float, help="Decay weight.")
     parser.add_argument("--gamma_scheduler", default=0, type=int, help="Whether to dynamically adjust weight for momentum based memory bank.")
     parser.add_argument("--pool_scheduler", default=0, type=int, help="Whether to adjust number of unlabeled examples.")
     parser.add_argument("--gamma_min", default=0.6, type=float, help="The momentum coefficient for aggregating predictions.")
