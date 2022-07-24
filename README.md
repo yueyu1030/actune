@@ -9,8 +9,8 @@ pytorch==1.6.0
 tqdm
 scikit-learn
 faiss-cpu==1.6.4
-
 ```
+
 # Datasets
 ## Main Experiments
 We use the following four datasets for the main experiments.
