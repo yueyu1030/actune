@@ -28,7 +28,7 @@ Most of the dataset are from the [WRENCH](https://github.com/JieyuZ2/wrench) ben
 
 # Training
 Please use the commands in `commands` folder for experiments.
-Take AG News dataset as an example, `run_agnews_finetune.sh` is used for running the experiment of standard active learning approaches, and `run_agnews_finetune.sh` is used for running active self-training experiments as unlabeled data is also used during fine-tuning.
+Take AG News dataset as an example, `run_agnews_finetune.sh` is used for running the experiment of standard active learning approaches, and `run_agnews.sh` is used for running active self-training experiments as unlabeled data is also used during fine-tuning.
 
 Here, we suppose there is a folder for storing datasets as in `../datasets/`, and a folder for logging the experiment results as in `../exp`. 
 
